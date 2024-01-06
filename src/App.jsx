@@ -19,7 +19,7 @@ function App() {
         </nav> */}
         <Routes>
           <Route
-            path="https://kamalbatesha.github.io/netflix-react/"
+            path="kamalbatesha.github.io/netflix-react/"
             element={<Home />}
           />
           <Route path="/Login" element={<Login />} />
