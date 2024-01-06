@@ -4,6 +4,7 @@ import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import AddIcon from "@mui/icons-material/Add";
 import ThumbUpOutlinedIcon from "@mui/icons-material/ThumbUpOutlined";
 import ThumbDownOffAltOutlinedIcon from "@mui/icons-material/ThumbDownOffAltOutlined";
+import { NavLink } from "react-router-dom";
 
 function ListItem(props) {
   // const hoverRef = useRef();
@@ -29,10 +30,12 @@ function ListItem(props) {
           <span>Ratting : {props.ratting}</span>
         </div>
         <div className="item-icons">
-          <PlayArrowIcon
-            className="icon"
-            onClick={() => (window.location.href = "/Watch")}
-          />
+          <NavLink to="./watch">
+            <PlayArrowIcon
+              className="icon"
+              // onClick={() => (window.location.href = "/Watch")}
+            />
+          </NavLink>
           <AddIcon className="icon" />
           <ThumbUpOutlinedIcon className="icon" />
           <ThumbDownOffAltOutlinedIcon className="icon" />
