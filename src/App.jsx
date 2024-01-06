@@ -8,28 +8,28 @@ import Watch from "./pages/watch/watch";
 
 function App() {
   return (
-    // <BrowserRouter>
-    //   <div>
-    //     {/* <h1>reacr router dom 6</h1>
-    //     <nav>
-    //       <NavLink to="/">Home</NavLink>
-    //       <NavLink to="/Footer">Footer</NavLink>
-    //       <NavLink to="/Header">Header</NavLink>
-    //       <NavLink to="/Books">Books</NavLink>
-    //     </nav> */}
-    //     <Routes>
-    //       <Route path="/" element={<Home />} />
-    //       <Route path="/Login" element={<Login />} />
-    //       <Route path="/Register" element={<Register />} />
-    //       <Route path="/Watch" element={<Watch />} />
+    <BrowserRouter>
+      <div>
+        {/* <h1>reacr router dom 6</h1>
+        <nav>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/Footer">Footer</NavLink>
+          <NavLink to="/Header">Header</NavLink>
+          <NavLink to="/Books">Books</NavLink>
+        </nav> */}
+        <Routes>
+          <Route path="/netflix-react" element={<Home />} />
+          <Route path="/Login" element={<Login />} />
+          <Route path="/Register" element={<Register />} />
+          <Route path="/Watch" element={<Watch />} />
 
-    //       {/* <Route path="*" element={<NotFound />} /> */}
-    //     </Routes>
-    //   </div>
-    // </BrowserRouter>
-    <div>
-      <Home />
-    </div>
+          {/* <Route path="*" element={<NotFound />} /> */}
+        </Routes>
+      </div>
+    </BrowserRouter>
+    // <div>
+    //   <Home />
+    // </div>
   );
 }
 
