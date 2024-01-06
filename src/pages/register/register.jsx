@@ -29,7 +29,7 @@ export default function Register() {
         <div className="wrapper">
           <img className="logo" src={logo} alt="" />
           {/* <button className="loginButton">Sign In</button> */}
-          <NavLink className="loginButton" to="/netflix-react/Login">
+          <NavLink className="loginButton" to="/Login">
             Sign In
           </NavLink>
         </div>

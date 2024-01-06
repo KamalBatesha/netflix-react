@@ -31,7 +31,7 @@ function ListItem(props) {
         <div className="item-icons">
           <PlayArrowIcon
             className="icon"
-            onClick={() => (window.location.href = "/netflix-react/Watch")}
+            onClick={() => (window.location.href = "/Watch")}
           />
           <AddIcon className="icon" />
           <ThumbUpOutlinedIcon className="icon" />

@@ -17,8 +17,7 @@ export default function Login() {
           <input type="password" placeholder="Password" />
           <button className="loginButton">Sign In</button>
           <span>
-            New to Netflix?{" "}
-            <NavLink to="/netflix-react/Register">Sign up now.</NavLink>
+            New to Netflix? <NavLink to="/Register">Sign up now.</NavLink>
           </span>
           <small>
             This page is protected by Google reCAPTCHA to ensure you're not a
