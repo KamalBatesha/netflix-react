@@ -18,7 +18,7 @@ function App() {
           <NavLink to="/Books">Books</NavLink>
         </nav> */}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="netflix-react/" element={<Home />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Register" element={<Register />} />
           <Route path="/Watch" element={<Watch />} />
