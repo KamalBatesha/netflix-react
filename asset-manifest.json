@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.878f2873.css",
-    "main.js": "/static/js/main.56e3448f.js",
-    "static/media/back-ground.jpg": "/static/media/back-ground.08dbf02393bc4f9515bf.jpg",
-    "static/media/my photo.jpg": "/static/media/my photo.f197a5c7c3fa54e01763.jpg",
-    "static/media/matrix-poster.jpg": "/static/media/matrix-poster.6b20e4ce77dc6c3e0faf.jpg",
-    "static/media/matrix.webp": "/static/media/matrix.cf69f1e19bae9500c39d.webp",
-    "static/media/logo.svg": "/static/media/logo.4738480150a9759d037e745d8a4a2f2a.svg",
-    "index.html": "/index.html",
-    "main.878f2873.css.map": "/static/css/main.878f2873.css.map",
-    "main.56e3448f.js.map": "/static/js/main.56e3448f.js.map"
+    "main.css": "/netflix-react/static/css/main.698db1b2.css",
+    "main.js": "/netflix-react/static/js/main.ddb71949.js",
+    "static/media/back-ground.jpg": "/netflix-react/static/media/back-ground.08dbf02393bc4f9515bf.jpg",
+    "static/media/my photo.jpg": "/netflix-react/static/media/my photo.f197a5c7c3fa54e01763.jpg",
+    "static/media/matrix-poster.jpg": "/netflix-react/static/media/matrix-poster.6b20e4ce77dc6c3e0faf.jpg",
+    "static/media/matrix.webp": "/netflix-react/static/media/matrix.cf69f1e19bae9500c39d.webp",
+    "index.html": "/netflix-react/index.html",
+    "static/media/logo.svg": "/netflix-react/static/media/logo.4738480150a9759d037e745d8a4a2f2a.svg",
+    "main.698db1b2.css.map": "/netflix-react/static/css/main.698db1b2.css.map",
+    "main.ddb71949.js.map": "/netflix-react/static/js/main.ddb71949.js.map"
   },
   "entrypoints": [
-    "static/css/main.878f2873.css",
-    "static/js/main.56e3448f.js"
+    "static/css/main.698db1b2.css",
+    "static/js/main.ddb71949.js"
   ]
 }
