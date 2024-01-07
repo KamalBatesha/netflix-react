@@ -36,10 +36,10 @@ function App() {
     <Router>
       <Routes>
         <Route index element={<Home />} />
-        <Route path="netflix-react/" element={<Home />} />
-        <Route path="netflix-react/Login" element={<Login />} />
-        <Route path="netflix-react/Register" element={<Register />} />
-        <Route path="netflix-react/Watch" element={<Watch />} />
+        <Route path="/netflix-react" element={<Home />} />
+        <Route path="/netflix-react/Login" element={<Login />} />
+        <Route path="/netflix-react/Register" element={<Register />} />
+        <Route path="/netflix-react/Watch" element={<Watch />} />
       </Routes>
     </Router>
   );
