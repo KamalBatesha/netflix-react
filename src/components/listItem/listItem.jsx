@@ -30,7 +30,7 @@ function ListItem(props) {
           <span>Ratting : {props.ratting}</span>
         </div>
         <div className="item-icons">
-          <Link to="/netflix-react/watch">
+          <Link to="/Watch">
             <PlayArrowIcon
               className="icon"
               // onClick={() => (window.location.href = "/Watch")}

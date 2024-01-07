@@ -4,10 +4,7 @@ import "./watch.css";
 export default function Watch() {
   return (
     <div className="watch">
-      <div
-        className="back"
-        onClick={() => (window.location.href = "/netflix-react")}
-      >
+      <div className="back" onClick={() => (window.location.href = "/")}>
         <ArrowBackIcon />
         Home
       </div>
