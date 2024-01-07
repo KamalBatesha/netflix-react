@@ -20,13 +20,10 @@ function App() {
         </nav> */}
         <Routes>
           <Route index element={<Home />} />
-          <Route path="/netflix-react" element={<Home />} />
-          <Route path="/netflix-react/Login" element={<Login />} />
-          <Route path="/netflix-react/Register" element={<Register />} />
-          <Route
-            path="/netflix-react/netflix-react/Watch"
-            element={<Watch />}
-          />
+          <Route path="/" element={<Home />} />
+          <Route path="/Login" element={<Login />} />
+          <Route path="/Register" element={<Register />} />
+          <Route path="/Watch" element={<Watch />} />
 
           {/* <Route path="*" element={<NotFound />} /> */}
         </Routes>
